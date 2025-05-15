@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - app_data:/usr/share/nginx/html/price_history
+    container_name: cido
+
+volumes:
+  app_data:
+    external: true
+    name: app_data
