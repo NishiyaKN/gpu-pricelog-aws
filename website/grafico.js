@@ -1,7 +1,7 @@
 const graphConfigs = [
-  { canvasId: 'graficoGPU', jsonFile: 'price_history/price_history/kabum-prices.json', title: 'Evolução de Preços - Kabum' },
-  { canvasId: 'graficoVendas', jsonFile: 'price_history/price_history/pichau-prices.json', title: 'Evolução de Preços - Pichau' },
-  { canvasId: 'graficoEstoque', jsonFile: 'price_history/price_history/terabyte-prices.json', title: 'Evolução de Preços - Terabyte' }
+  { canvasId: 'graficoGPU', jsonFile: 'price_history/kabum-prices.json', title: 'Evolução de Preços - Kabum' },
+  { canvasId: 'graficoVendas', jsonFile: 'price_history/pichau-prices.json', title: 'Evolução de Preços - Pichau' },
+  { canvasId: 'graficoEstoque', jsonFile: 'price_history/terabyte-prices.json', title: 'Evolução de Preços - Terabyte' }
 ];
 
 // Store chart instances to update them later
