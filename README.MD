@@ -8,8 +8,9 @@
 - Aparecido Valdemir de Freitas 
 
 **Alunos**:
-- Kaick Kenithi Nishiya
-- Lucas Quinto Roli
+- Jorge Mutran
+- Kaick Nishiya
+- Lucas Quinto
 - Matheus Pestili
 
 ### Visão geral
