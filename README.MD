@@ -8,13 +8,15 @@
 - Aparecido Valdemir de Freitas 
 
 **Alunos**:
+- Alexandre Moreno
 - Jorge Mutran
 - Kaick Nishiya
 - Lucas Quinto
 - Matheus Pestili
+- Wendel Pereira
 
 ### Visão geral
-O projeto utiliza uma instância EC2 na AWS (free-tier), onde possui dois containers Docker: price-tracker e cido-web.
+O projeto utiliza uma instância t2.micro (EC2) na AWS,onde possui dois containers Docker: price-tracker e cido-web.
 
 **price-tracker**: Possui diversos scripts escritos em python que periodicamente são ativados pelo crond. Os scripts acessam os websites da Kabum, Terabyte e Pichau para verificar os valores de certas GPUs. Quando é possível obter os valores, eles são armazenados em arquivos json, que estão em um volume compartilhado.
 
